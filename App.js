@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Text>Helo Isaac!</Text>
+      <Text>Hello Isaac!</Text>
       <StatusBar style="auto" />
     </View>
   );
@@ -17,5 +17,6 @@ const styles = StyleSheet.create({
     backgroundColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
+    fontFamily: 'Montserrat-Bold.ttf'
   },
 });
